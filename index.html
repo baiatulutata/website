@@ -2,50 +2,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
           <meta name="google-site-verification" content="0-cV4d0DRuTA0ztea9xrhKBf1gKPm0s7YJmAaz6v0Ps" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BaiatuLuTata | GitHub</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Arial", sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #eae0c8;
             text-align: center;
+            color: #222;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 50px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background: #f8f4e3;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 4px 4px 0px #000;
+            text-align: left;
+        }
+        h1, h2, h3 {
+            font-family: "Futura", sans-serif;
+            text-transform: uppercase;
         }
         h1 {
-            color: #333;
+            color: #d32f2f;
+            text-align: center;
+            font-size: 2.5rem;
         }
-        p {
-            color: #666;
+        h2 {
+            color: #1976d2;
+            border-bottom: 3px solid #222;
+            display: inline-block;
+            padding-bottom: 5px;
         }
         .projects, .resume, .websites, .contact {
-            margin-top: 20px;
-            text-align: left;
+            margin-top: 30px;
         }
         .project, .resume-section, .website, .contact-info {
             background: #fff;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 10px solid #1976d2;
+            box-shadow: 3px 3px 0px #000;
         }
         a {
-            color: #007BFF;
+            color: #d32f2f;
             text-decoration: none;
             font-weight: bold;
         }
         a:hover {
             text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
         }
     </style>
 </head>
@@ -61,16 +79,6 @@
                 <p>An interactive WordPress plugin for calculating wood boiler sizes.</p>
                 <a href="https://github.com/baiatulutata/woodBoilerSizeCalculator" target="_blank">View on GitHub</a>
             </div>
-            <div class="project">
-                <h3>Subscribe by Category</h3>
-                <p>A WordPress plugin for collecting email subscriptions by category.</p>
-                <a href="https://github.com/baiatulutata/subscribeByCategory" target="_blank">View on GitHub</a>
-            </div>
-            <div class="project">
-                <h3>WP Custom Contact Form</h3>
-                <p>A flexible contact form plugin for WordPress with reCAPTCHA.</p>
-                <a href="https://github.com/baiatulutata/wp-Custom-Contact-Form" target="_blank">View on GitHub</a>
-            </div>
         </div>
         
         <h2>My Websites</h2>
@@ -80,51 +88,13 @@
                 <p>A platform dedicated to celebrating Romanian traditions and holidays.</p>
                 <a href="https://sarbatoare.ro" target="_blank">Visit Website</a>
             </div>
-            <div class="website">
-                <h3>FocFoc.ro</h3>
-                <p>A resource for high-quality firewood, heating solutions, and fire safety tips.</p>
-                <a href="https://focfoc.ro" target="_blank">Visit Website</a>
-            </div>
-            <div class="website">
-                <h3>Miresik.ro</h3>
-                <p>A wedding planning website that helps couples organize their dream weddings.</p>
-                <a href="https://miresik.ro" target="_blank">Visit Website</a>
-            </div>
-            <div class="website">
-                <h3>WooMag.ro</h3>
-                <p>An online magazine focusing on eCommerce, WordPress, and WooCommerce insights.</p>
-                <a href="https://woomag.ro" target="_blank">Visit Website</a>
-            </div>
         </div>
         
         <h2>Resume</h2>
         <div class="resume">
             <div class="resume-section">
                 <h3>Ionut Baldazar</h3>
-                <p><strong>Summary:</strong> Highly skilled and experienced full-stack developer with a passion for building innovative and user-friendly web applications.</p>
-                <p>Proven ability to lead frontend development efforts and collaborate effectively with designers and back-end developers. Strong understanding of DevOps principles and experience managing databases and server environments.</p>
-            </div>
-            <div class="resume-section">
-                <h3>Technical Skills</h3>
-                <p><strong>Frontend:</strong> Vue.js, React.js, Next.js, Nuxt.js, JavaScript (Vanilla), PHP</p>
-                <p><strong>Backend:</strong> PHP, C#, SQL (MySQL, MSSQL)</p>
-                <p><strong>DevOps:</strong> Ubuntu, CentOS, Docker</p>
-                <p><strong>Other:</strong> Strong analytical skills, visionary mindset, multilingual (English, conversational German, French, Italian, Spanish)</p>
-            </div>
-            <div class="resume-section">
-                <h3>Work Experience</h3>
-                <p><strong>Frontend Lead - Current Company</strong></p>
-                <ul>
-                    <li>Developed and maintained web applications using React.js and WordPress.</li>
-                    <li>Led frontend development for cushionpros.com, a complex e-commerce platform.</li>
-                    <li>Worked on livid.digital, an online car showroom with live-video streams (Nuxt.js).</li>
-                </ul>
-                <p><strong>Web Developer</strong></p>
-                <ul>
-                    <li>Developed presentation websites and e-commerce platforms.</li>
-                    <li>Integrated Cisco statistics for blueprintrf.com using WordPress.</li>
-                    <li>Created swingfitai.com, a Vue.js application for golf club selection.</li>
-                </ul>
+                <p><strong>Summary:</strong> Highly skilled full-stack developer with a passion for building innovative and user-friendly web applications.</p>
             </div>
         </div>
         
@@ -135,8 +105,6 @@
                 <p><strong>Facebook:</strong> <a href="https://www.facebook.com/patrusutepatru" target="_blank">Facebook Profile</a></p>
             </div>
         </div>
-        
-        <p>Explore more on my <a href="https://github.com/baiatulutata" target="_blank">GitHub profile</a>.</p>
     </div>
 </body>
 </html>
